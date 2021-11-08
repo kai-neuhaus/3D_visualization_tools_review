@@ -11,6 +11,7 @@ Some more advanced features to mention might be mesh generation, surface plottin
 Importing a 3D volume may require some understanding of what data structures Paraview are targeting. Although we might assume that npy files can be imported, converting to vtk file format is required. 
 There may be technical reasons to do so, which I did not follow up on. Converting from npy to vtk seems to be not too much effort depending on the data complexity and if certain meta-data need to pertain.
 
+![](PV_show.gif)
 
 # Mayavi
 Mayavi (8-11-2021) currently
