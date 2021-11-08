@@ -25,6 +25,7 @@ https://kitware.github.io/paraview-glance/
 ![Paraview demo web](PV_show_online.gif)
 
 # TomViz 
+(https://tomviz.org/docs/)
 ![TomViz](TomViz.gif)
 [TomViz](https://tomviz.org/) seems to have the most relevant features prepared. The anticipated preprocessing for the nsOCT [[1]](#nsOCT) algorithm may also run in the provided Python version.
 For inexperienced users, TomViz may be somewhat easier to use compared to Paraview.
