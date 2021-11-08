@@ -4,6 +4,11 @@ This is not a final or conlusive review.
 
 The anticipated user groups are beginners and users with little experience, which can be supported by more experienced members with more programming skills, especially in Python.
 
+# Kitware
+https://www.kitware.com/platforms/
+A list of tools explained here can be found at the link.
+The Kitware platforms provide an overview of more tools.
+
 # Paraview
 [Paraview](https://www.paraview.org/) is like the other tools from [Kitware](https://www.kitware.com/) ([3DSlicer](https://www.slicer.org/), [TomViz](https://tomviz.org/)). 
 Although Paraview requires not strictly programming skills, good knowledge about using processing pipes and getting used to preparing viewing tasks requires initial reading of the manual. I think Paraview can be compared somewhat to the commercial tool [Amira](https://en.wikipedia.org/wiki/Amira_(software)). 
@@ -12,7 +17,12 @@ Some more advanced features to mention might be mesh generation, surface plottin
 Importing a 3D volume may require some understanding of what data structures Paraview are targeting. Although we might assume that npy files can be imported, converting to vtk file format is required. 
 There may be technical reasons to do so, which I did not follow up on. Converting from npy to vtk seems to be not too much effort depending on the data complexity and if certain meta-data need to pertain.
 (The CT data are from __University of North Carolina__ Volume Rendering Test Data Set (http://graphics.stanford.edu/data/voldata/)) 
-![](PV_show.gif)
+![Paraview demo](PV_show.gif)
+
+# Paraview in Webbrowser
+https://kitware.github.io/paraview-glance/
+
+![Paraview demo web](PV_show_online.gif)
 
 # TomViz 
 [TomViz](https://tomviz.org/) seems to have the most relevant features prepared. The anticipated preprocessing for the nsOCT [[1]](#nsOCT) algorithm may also run in the provided Python version.
