@@ -41,7 +41,7 @@ The documentation claims that:
 "A research software platform, which allows researchers to quickly develop and evaluate new methods and distribute them to clinical users. All features are available and extensible in Python and C++. A full Python environment is provided where any Python packages can be installed and combined with built-in features. Slicer has a built-in Python console and can act as a Jupyter notebook kernel with remote 3D rendering capabilities."
 (https://slicer.readthedocs.io/en/latest/user_guide/about.html)
 
-![3DSlicer.gif]
+![](3DSlicer.gif)
 
 Importing data seems to be possible over the vtk or DICOM formats. However, converting ordinary npy files is straightforward (see example [npy2vtk_t0.py](npy2vtk_t0.py)).
 The user interface is extensive but also a bit difficult at times. 
