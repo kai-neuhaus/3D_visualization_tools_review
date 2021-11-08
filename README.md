@@ -13,5 +13,15 @@ There may be technical reasons to do so, which I did not follow up on. Convertin
 
 ![](PV_show.gif)
 
+# TomViz 
+[TomViz](https://tomviz.org/) seems to have the most relevant features prepared. The anticipated preprocessing for the nsOCT [1](#nsOCT) algorithm may also run in the provided Python version.
+It can load npy files, and as it is straightforward to convert mat to npy it would also work for data generated with MATLAB.
+The provided Python version has a minimal set of packages related to parallel computing and in-memory communication. If any script must run in another Python version, this needs to happen over intermediate scripting.
+
+<a id="nsOCT">[1]</a> Alexandrov, S. et al. (2021) ‘Accessing depth-resolved high spatial frequency content from the optical coherence tomography signal’, Scientific Reports, 11(1), p. 17123. doi:10.1038/s41598-021-96619-7.
+
+
 # Mayavi
 Mayavi (8-11-2021) currently
+
+
