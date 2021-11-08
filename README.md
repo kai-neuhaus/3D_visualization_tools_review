@@ -25,7 +25,9 @@ https://kitware.github.io/paraview-glance/
 ![Paraview demo web](PV_show_online.gif)
 
 # TomViz 
+![TomViz](TomViz.gif)
 [TomViz](https://tomviz.org/) seems to have the most relevant features prepared. The anticipated preprocessing for the nsOCT [[1]](#nsOCT) algorithm may also run in the provided Python version.
+For inexperienced users, TomViz may be somewhat easier to use compared to Paraview.
 It can load npy files, and as it is straightforward to convert mat to npy it would also work for data generated with MATLAB.
 The provided Python version has a minimal set of packages related to parallel computing and in-memory communication. If any script must run in another Python version, this needs to happen over intermediate scripting.
 
