@@ -35,11 +35,21 @@ The provided Python version has a minimal set of packages related to parallel co
 <a id="nsOCT">[1]</a> Alexandrov, S. et al. (2021) ‘Accessing depth-resolved high spatial frequency content from the optical coherence tomography signal’, Scientific Reports, 11(1), p. 17123. doi:10.1038/s41598-021-96619-7.
 
 # 3DSlicer
-3DSlicer focuses on 3D slice visualization and is less concerned with 3D volume visualization.
-Importing data seems a bit of an effort as it needs to be in vtk or DICOM. The user interface is extensive but also a bit difficult at times. 
+3DSlicer focuses on 3D slice visualization and is less concerned with 3D volume visualization, although also showing 3D volumes.
+There seem to be many extensions available that provide additional support specific medical imaging workflows.
+The documentation claims that:
+"A research software platform, which allows researchers to quickly develop and evaluate new methods and distribute them to clinical users. All features are available and extensible in Python and C++. A full Python environment is provided where any Python packages can be installed and combined with built-in features. Slicer has a built-in Python console and can act as a Jupyter notebook kernel with remote 3D rendering capabilities."
+(https://slicer.readthedocs.io/en/latest/user_guide/about.html)
+
+Importing data seems to be possible over the vtk or DICOM formats. However, converting ordinary npy files is straightforward (see example [npy2vtk_t0.py](npy2vtk_t0.py)).
+The user interface is extensive but also a bit difficult at times. 
 There seems to be an extensive extension database integrated, but it is not clear yet how useful this would be. In general, the extensions seem to provide methods for segmentation for specific medical images.
 There is a MATLAB bridge extension that may be of interest [(3DSlicer ML bridge)](https://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/MatlabBridge).
 For tissue imaging, the prepared views of the slices may be relevant and helpful. There seems sufficient access to enhance viewing programmatically, which may alleviate some of the initial data conversion to vtk and provide prepared views.
+
+
+
+Fedorov A., Beichel R., Kalpathy-Cramer J., Finet J., Fillion-Robin J-C., Pujol S., Bauer C., Jennings D., Fennessy F.M., Sonka M., Buatti J., Aylward S.R., Miller J.V., Pieper S., Kikinis R. 3D Slicer as an Image Computing Platform for the Quantitative Imaging Network. Magnetic Resonance Imaging. 2012 Nov;30(9):1323-41. PMID: 22770690. PMCID: PMC3466397.
 
 # Mayavi
 Mayavi (8-11-2021) currently
