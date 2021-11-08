@@ -41,6 +41,8 @@ The documentation claims that:
 "A research software platform, which allows researchers to quickly develop and evaluate new methods and distribute them to clinical users. All features are available and extensible in Python and C++. A full Python environment is provided where any Python packages can be installed and combined with built-in features. Slicer has a built-in Python console and can act as a Jupyter notebook kernel with remote 3D rendering capabilities."
 (https://slicer.readthedocs.io/en/latest/user_guide/about.html)
 
+![3DSlicer.gif]
+
 Importing data seems to be possible over the vtk or DICOM formats. However, converting ordinary npy files is straightforward (see example [npy2vtk_t0.py](npy2vtk_t0.py)).
 The user interface is extensive but also a bit difficult at times. 
 There seems to be an extensive extension database integrated, but it is not clear yet how useful this would be. In general, the extensions seem to provide methods for segmentation for specific medical images.
@@ -52,7 +54,7 @@ For tissue imaging, the prepared views of the slices may be relevant and helpful
 Fedorov A., Beichel R., Kalpathy-Cramer J., Finet J., Fillion-Robin J-C., Pujol S., Bauer C., Jennings D., Fennessy F.M., Sonka M., Buatti J., Aylward S.R., Miller J.V., Pieper S., Kikinis R. 3D Slicer as an Image Computing Platform for the Quantitative Imaging Network. Magnetic Resonance Imaging. 2012 Nov;30(9):1323-41. PMID: 22770690. PMCID: PMC3466397.
 
 # Mayavi
-Mayavi (8-11-2021) currently
+[working on it]
 
 # PyVista
 PyVista was not considered here as it seems to run in iPython notebooks mainly. PyVista will be only relevant if the users are accustomed to iPython and analyse data with it.
