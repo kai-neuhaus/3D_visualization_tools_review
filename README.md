@@ -20,6 +20,8 @@ There may be technical reasons to do so, which I did not follow up on. Convertin
 ![Paraview demo](PV_show.gif)
 
 # Paraview in Webbrowser
+It may not be a primary use case for heavy data processing but it may help to share specific 3D data views. 
+Not sure if any collaborative features have been added already.
 https://kitware.github.io/paraview-glance/
 
 ![Paraview demo web](PV_show_online.gif)
@@ -45,9 +47,11 @@ The documentation claims that:
 
 Importing data seems to be possible over the vtk or DICOM formats. However, converting ordinary npy files is straightforward (see example [npy2vtk_t0.py](npy2vtk_t0.py)).
 The user interface is extensive but also a bit difficult at times. 
-There seems to be an extensive extension database integrated, but it is not clear yet how useful this would be. In general, the extensions seem to provide methods for segmentation for specific medical images.
+There seems to be an extensive extension database integrated, but it is not clear yet how useful this would be specifically for tissue imaging and the nsOCT method. In general, the extensions seem to provide methods for segmentation for specific medical images.
 There is a MATLAB bridge extension that may be of interest [(3DSlicer ML bridge)](https://www.slicer.org/slicerWiki/index.php/Documentation/Nightly/Extensions/MatlabBridge).
-For tissue imaging, the prepared views of the slices may be relevant and helpful. There seems sufficient access to enhance viewing programmatically, which may alleviate some of the initial data conversion to vtk and provide prepared views.
+For tissue imaging, the prepared views of the slices may be relevant and helpful. 
+A Python console can be accessed as well which might allow to enhance viewing programmatically. 
+Programmatic setup of th eview may alleviate initial difficulties for beginners and can support the data conversion to vtk.
 
 
 
