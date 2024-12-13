@@ -63,5 +63,10 @@ Fedorov A., Beichel R., Kalpathy-Cramer J., Finet J., Fillion-Robin J-C., Pujol 
 # PyVista
 PyVista was not considered here as it seems to run in iPython notebooks mainly. PyVista will be only relevant if the users are accustomed to iPython and analyse data with it.
 
+# Other
+By now other tools have become available but I have not found time yet to add more details.
 
+Maybe more noteworthy could be Napari.
+
+But again, Napari is possibly not beginner friendly per se. Some more detailed understand about additional python packages is required before it is possible to work with it efficiently.
 
